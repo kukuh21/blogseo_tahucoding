@@ -65,4 +65,9 @@
       <button type="submit" class="btn btn-primary btn-block">Simpan Kategori</button>
     </div>
   </form>
+
+  <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace( 'content' );
+  </script>
 @endsection
